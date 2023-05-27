@@ -1,0 +1,23 @@
+// import React from 'react'
+
+const App = () => {
+  return (
+    //this is jsx (javascript extension and xml)
+    //<React.fragment>,<div>,<section>,<></> ka tag use krsktay hain ismain
+    //component call krwadia poora ka poora just tagkay under naam daykr
+    //nested components myname and app
+    <> <MyName/>
+    Welcome to abdul quddos channel
+    <p className="myClassname">Abdul Quddos is here {3+3}</p>
+    <img src="" alt=""/>
+    </>
+    )
+}
+const MyName = () =>{
+  return <h1>Abdul Quddos boss</h1>
+}
+//jhaan pr react. krna prayga whaan pr import react krna prayga
+// const App = () =>{
+//   return React.createElement("h1",{},"Hello world")
+// }
+export default App
